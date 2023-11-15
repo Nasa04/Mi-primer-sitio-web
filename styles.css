@@ -1,0 +1,153 @@
+* {
+    margin: auto;
+    padding: 10;
+    box-sizing: border-box;
+  }
+  
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+header{
+    background-color: #E60026;
+}
+
+.encabezado-contenedor {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.encabezado {
+    color: #fff;
+    background-color: #009B3A;
+    width: 900px;
+    text-align: center;
+    border-radius: 50% 20% / 10% 40%;
+    border: #f0f6ff 10px double;
+    background-clip: content-box;
+}
+
+#MAÑEÑA {
+    font-size: 45px;
+    margin-bottom: 5px;
+  }
+  
+#Slogan {
+    font-size: 25px;
+    margin-bottom: 25px;
+  }
+  
+#Subtitulo {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+header nav ul {
+    background-color: #FFC72C;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.1em;
+    margin-bottom: 35px;
+    font-size: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#check {
+    display: none;
+}
+
+.checkbtn {
+    font-size: 25px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+/* Estilos generales para toda la página */
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+  }
+  
+  /* Estilos para dispositivos móviles */
+  @media (max-width: 767px) {
+    /* Ajustar el tamaño del logo */
+    .encabezado h1 {
+      font-size: 20px;
+    }
+    
+    /* Ajustar el tamaño del menú de navegación */
+    nav ul {
+      font-size: 14px;
+    }
+    
+    /* Alinear el texto del encabezado al centro */
+    .encabezado {
+      text-align: center;
+    }
+    
+    /* Cambiar el tamaño de las imágenes */
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    
+    /* Ajustar el tamaño y espaciado de los elementos de la lista */
+    ul li {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+    
+    /* Ajustar el espaciado entre elementos */
+    .encabezado-contenedor {
+      padding: 20px;
+    }
+    
+    /* Agrega aquí otros ajustes de estilos que desees para dispositivos móviles */
+  }
+  
+  /* Estilos para tabletas y pantallas medianas */
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* Ajustar el tamaño del logo */
+    .encabezado h1 {
+      font-size: 24px;
+    }
+    
+    /* Ajustar el tamaño del menú de navegación */
+    nav ul {
+      font-size: 16px;
+    }
+    
+    /* Agrega aquí otros ajustes de estilos que desees para tabletas y pantallas medianas */
+  }
+  
+  /* Estilos para pantallas grandes */
+  @media (min-width: 992px) {
+    /* Ajustar el tamaño del logo */
+    .encabezado h1 {
+      font-size: 32px;
+    }
+    
+    /* Ajustar el tamaño del menú de navegación */
+    nav ul {
+      font-size: 18px;
+    }
+    
+    /* Agrega aquí otros ajustes de estilos que desees para pantallas grandes */
+  }
